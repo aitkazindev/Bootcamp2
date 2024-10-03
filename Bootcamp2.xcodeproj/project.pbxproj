@@ -11,6 +11,7 @@
 		8F992B862CAECC9C0065AEC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F992B852CAECC9C0065AEC0 /* ContentView.swift */; };
 		8F992B882CAECC9D0065AEC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F992B872CAECC9D0065AEC0 /* Assets.xcassets */; };
 		8F992B8B2CAECC9D0065AEC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F992B8A2CAECC9D0065AEC0 /* Preview Assets.xcassets */; };
+		8F992B922CAECD080065AEC0 /* Bootcamp21_LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F992B912CAECD080065AEC0 /* Bootcamp21_LongPressGesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8F992B852CAECC9C0065AEC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F992B872CAECC9D0065AEC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F992B8A2CAECC9D0065AEC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F992B912CAECD080065AEC0 /* Bootcamp21_LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp21_LongPressGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				8F992B832CAECC9C0065AEC0 /* Bootcamp2App.swift */,
+				8F992B912CAECD080065AEC0 /* Bootcamp21_LongPressGesture.swift */,
 				8F992B852CAECC9C0065AEC0 /* ContentView.swift */,
 				8F992B872CAECC9D0065AEC0 /* Assets.xcassets */,
 				8F992B892CAECC9D0065AEC0 /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F992B862CAECC9C0065AEC0 /* ContentView.swift in Sources */,
+				8F992B922CAECD080065AEC0 /* Bootcamp21_LongPressGesture.swift in Sources */,
 				8F992B842CAECC9C0065AEC0 /* Bootcamp2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
