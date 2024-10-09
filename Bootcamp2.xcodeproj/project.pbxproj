@@ -17,6 +17,7 @@
 		8FF0AEB72CB2BB8D00DAB858 /* Bootcamp25_ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF0AEB62CB2BB8D00DAB858 /* Bootcamp25_ScrollViewReader.swift */; };
 		8FF0AEBE2CB4531E00DAB858 /* Bootcamp26_GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF0AEBD2CB4531E00DAB858 /* Bootcamp26_GeometryReader.swift */; };
 		8FF0AEC02CB5D03E00DAB858 /* Bootcamp27_MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF0AEBF2CB5D03E00DAB858 /* Bootcamp27_MultipleSheets.swift */; };
+		8FF0AEDE2CB7251D00DAB858 /* Bootcamp28_Masks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF0AEDD2CB7251D00DAB858 /* Bootcamp28_Masks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		8FF0AEB62CB2BB8D00DAB858 /* Bootcamp25_ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp25_ScrollViewReader.swift; sourceTree = "<group>"; };
 		8FF0AEBD2CB4531E00DAB858 /* Bootcamp26_GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp26_GeometryReader.swift; sourceTree = "<group>"; };
 		8FF0AEBF2CB5D03E00DAB858 /* Bootcamp27_MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp27_MultipleSheets.swift; sourceTree = "<group>"; };
+		8FF0AEDD2CB7251D00DAB858 /* Bootcamp28_Masks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp28_Masks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				8FF0AEB62CB2BB8D00DAB858 /* Bootcamp25_ScrollViewReader.swift */,
 				8FF0AEBD2CB4531E00DAB858 /* Bootcamp26_GeometryReader.swift */,
 				8FF0AEBF2CB5D03E00DAB858 /* Bootcamp27_MultipleSheets.swift */,
+				8FF0AEDD2CB7251D00DAB858 /* Bootcamp28_Masks.swift */,
 				8F992B852CAECC9C0065AEC0 /* ContentView.swift */,
 				8F992B872CAECC9D0065AEC0 /* Assets.xcassets */,
 				8F992B892CAECC9D0065AEC0 /* Preview Content */,
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF0AEDE2CB7251D00DAB858 /* Bootcamp28_Masks.swift in Sources */,
 				8F992B862CAECC9C0065AEC0 /* ContentView.swift in Sources */,
 				8FCF5B0E2CB1CE9200C2D519 /* Bootcamp23_RotationGesture.swift in Sources */,
 				8FF0AEBE2CB4531E00DAB858 /* Bootcamp26_GeometryReader.swift in Sources */,
