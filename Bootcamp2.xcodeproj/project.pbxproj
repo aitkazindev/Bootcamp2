@@ -18,6 +18,9 @@
 		8FF0AEBE2CB4531E00DAB858 /* Bootcamp26_GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF0AEBD2CB4531E00DAB858 /* Bootcamp26_GeometryReader.swift */; };
 		8FF0AEC02CB5D03E00DAB858 /* Bootcamp27_MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF0AEBF2CB5D03E00DAB858 /* Bootcamp27_MultipleSheets.swift */; };
 		8FF0AEDE2CB7251D00DAB858 /* Bootcamp28_Masks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF0AEDD2CB7251D00DAB858 /* Bootcamp28_Masks.swift */; };
+		8FF0AEE42CB854A600DAB858 /* Bootcamp29_Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF0AEE32CB854A600DAB858 /* Bootcamp29_Sounds.swift */; };
+		8FF0AEE72CB8578100DAB858 /* tadam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FF0AEE62CB8578100DAB858 /* tadam.mp3 */; };
+		8FF0AEE92CB8578800DAB858 /* badam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FF0AEE82CB8578800DAB858 /* badam.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		8FF0AEBD2CB4531E00DAB858 /* Bootcamp26_GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp26_GeometryReader.swift; sourceTree = "<group>"; };
 		8FF0AEBF2CB5D03E00DAB858 /* Bootcamp27_MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp27_MultipleSheets.swift; sourceTree = "<group>"; };
 		8FF0AEDD2CB7251D00DAB858 /* Bootcamp28_Masks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp28_Masks.swift; sourceTree = "<group>"; };
+		8FF0AEE32CB854A600DAB858 /* Bootcamp29_Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp29_Sounds.swift; sourceTree = "<group>"; };
+		8FF0AEE62CB8578100DAB858 /* tadam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tadam.mp3; path = "../../../../../Downloads/tada-sound/tadam.mp3"; sourceTree = "<group>"; };
+		8FF0AEE82CB8578800DAB858 /* badam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = badam.mp3; path = ../../../../../Downloads/badam.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +79,9 @@
 				8FF0AEBD2CB4531E00DAB858 /* Bootcamp26_GeometryReader.swift */,
 				8FF0AEBF2CB5D03E00DAB858 /* Bootcamp27_MultipleSheets.swift */,
 				8FF0AEDD2CB7251D00DAB858 /* Bootcamp28_Masks.swift */,
+				8FF0AEE32CB854A600DAB858 /* Bootcamp29_Sounds.swift */,
 				8F992B852CAECC9C0065AEC0 /* ContentView.swift */,
+				8FF0AEE52CB8576500DAB858 /* Sounds */,
 				8F992B872CAECC9D0065AEC0 /* Assets.xcassets */,
 				8F992B892CAECC9D0065AEC0 /* Preview Content */,
 			);
@@ -86,6 +94,15 @@
 				8F992B8A2CAECC9D0065AEC0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8FF0AEE52CB8576500DAB858 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8FF0AEE82CB8578800DAB858 /* badam.mp3 */,
+				8FF0AEE62CB8578100DAB858 /* tadam.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +163,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF0AEE92CB8578800DAB858 /* badam.mp3 in Resources */,
 				8F992B8B2CAECC9D0065AEC0 /* Preview Assets.xcassets in Resources */,
 				8F992B882CAECC9D0065AEC0 /* Assets.xcassets in Resources */,
+				8FF0AEE72CB8578100DAB858 /* tadam.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +182,7 @@
 				8FCF5B0E2CB1CE9200C2D519 /* Bootcamp23_RotationGesture.swift in Sources */,
 				8FF0AEBE2CB4531E00DAB858 /* Bootcamp26_GeometryReader.swift in Sources */,
 				8FD2F2982CB06A8800245F4F /* Bootcamp22_MagnificationGesture.swift in Sources */,
+				8FF0AEE42CB854A600DAB858 /* Bootcamp29_Sounds.swift in Sources */,
 				8F992B922CAECD080065AEC0 /* Bootcamp21_LongPressGesture.swift in Sources */,
 				8FF0AEB72CB2BB8D00DAB858 /* Bootcamp25_ScrollViewReader.swift in Sources */,
 				8F992B842CAECC9C0065AEC0 /* Bootcamp2App.swift in Sources */,
