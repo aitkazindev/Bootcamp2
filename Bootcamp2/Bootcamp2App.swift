@@ -11,7 +11,7 @@ import SwiftUI
 struct Bootcamp2App: App {
     var body: some Scene {
         WindowGroup {
-            Bootcamp23_RotationGesture()
+            Bootcamp217_ThreadsQueues()
         }
     }
 }
